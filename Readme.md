@@ -6,7 +6,7 @@
 
 # WinForms Scheduler - Mapping converters
 
-This example creates [mapping converters](https://docs.devexpress.com/WindowsForms/118437/controls-and-libraries/scheduler/data-binding/mappings/mapping-converters) that implement custom mapping logic. Mapping converters allow you to easily change the format in which data is stored, perform additional actions before data is saved or loaded.
+This example creates [mapping converters](https://docs.devexpress.com/WindowsForms/118437/controls-and-libraries/scheduler/data-binding/mappings/mapping-converters) that implement custom mapping logic. Mapping converters allow you to easily change the format in which data is stored, and perform additional actions before data is saved or loaded.
 
 ```csharp
 schedulerStorage1.Appointments.Mappings.LabelConverter = new MappingConverterLabel(schedulerStorage1);
